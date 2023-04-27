@@ -2,7 +2,7 @@
 # Add introduction
 # Ask user for numbers of input
 # Ask user to enter numbers
-# Create a text file for user's input
+# Create a text file for Integers
 # Create a Formula for Separating Even and Odd
 # Add Loading Time
 # Create a double.txt file
