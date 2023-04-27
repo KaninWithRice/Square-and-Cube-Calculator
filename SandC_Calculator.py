@@ -71,4 +71,7 @@ with open("double.txt", "r") as square_list:
     print("Squared Number List: " + "\n" + square_list.read())
 
 # Create a triple.txt file  
+with open("triple.txt", "w") as cube:
+    for x in odd_numbers:
+            cube.write(str(x**3) + "\n")
 # Print Cubed Itegers 
