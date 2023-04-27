@@ -67,5 +67,8 @@ with open("double.txt", "w") as square:
     for x in even_numbers:
             square.write(str(x**2) + "\n")
 # Print Squared Itegers
+with open("double.txt", "r") as square_list:
+    print("Squared Number List: " + "\n" + square_list.read())
+
 # Create a triple.txt file  
 # Print Cubed Itegers 
