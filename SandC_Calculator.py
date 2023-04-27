@@ -1,5 +1,9 @@
 # Mohammad Mishal S. Noroña | BSCPE 1-5 | Porblem 4 Square and Cube
 # Add introduction
+print("")
+print("WELCOME TO THE SQUARE AND CUBE CALCULATOR".center(40," ") )
+print("By: Mishal Noroña".center(40," ") )
+
 # Ask user for numbers of input
 # Ask user to enter numbers
 # Create a text file for Integers
