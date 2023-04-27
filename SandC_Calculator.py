@@ -22,6 +22,14 @@ with open("integers.txt", "r") as user_input:
     numbers = [int(x) for x in user_input.read().split()]
 
 # Create a Formula for Separating Even and Odd
+even_numbers = []
+odd_numbers = []
+for x in numbers:
+    if x % 2 == 0:
+        even_numbers.append(x)
+    else:
+        odd_numbers.append(x)
+
 # Add Loading Time
 # Create a double.txt file
 # Print Squared Itegers
