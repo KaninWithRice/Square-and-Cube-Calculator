@@ -63,6 +63,9 @@ def animate():
 
 animate()
 # Create a double.txt file
+with open("double.txt", "w") as square:
+    for x in even_numbers:
+            square.write(str(x**2) + "\n")
 # Print Squared Itegers
 # Create a triple.txt file  
 # Print Cubed Itegers 
