@@ -75,3 +75,5 @@ with open("triple.txt", "w") as cube:
     for x in odd_numbers:
             cube.write(str(x**3) + "\n")
 # Print Cubed Itegers 
+with open("triple.txt", "r") as cube_list:
+    print("Cubed Number List: " + "\n" + cube_list.read())
